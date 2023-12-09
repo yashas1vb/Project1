@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Red Rose", cursive;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/pexels-maxyne-barcel-10402282\ 1.png);
+    /* background; */
+    /* background: ; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 55px;
+    /* margin: 10px 20px; */
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 50px;
+    color: yellow;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav img{
+    cursor: pointer;
+}
+
+nav button{
+    background-color: rgb(220, 87, 87);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 0px solid;
+    /* font-weight: 100; */
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    /* line-height: 30px; */
+    /* padding: 12px 40px; */
+    font-family: "Red Rose";
+}
+
+
+main{
+    font-family: "Dela Gothic One", cursive;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.heading{
+   height: 50vh;
+
+
+}
+.heading h1{
+    font-size: 100px;
+    color: yellow;
+    line-height: 100px;
+
+}
+
+/* main h1 button{
+} */
+main button{
+    width: 270px;
+    height: 90px;
+    background-color: rgb(220, 87, 87);
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    position: relative;
+    bottom: 40px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* position: relative; */
+    /* flex-direction; */
+
+}
+
+.bottom img{
+    position: absolute;
+    /* top: ; */
+    bottom: 20px;
+    right: 40px;
+}
+ 
